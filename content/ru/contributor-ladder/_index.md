@@ -10,16 +10,16 @@ menu:
 Привет! 👋 Спасибо за интерес к участию в проекте CNCF Cloud Native Glossary. 
 Есть множество способов стать активным участником этого сообщества. 
 Можно предлагать новые термины, помогать в локализации Глоссария на родной язык или поддерживать и направлять новичков. 
-В этом документе описаны различные роли контрибьюторов в проекте, а также обязанности и привилегии, которые к ним прилагаются
+В этом документе описаны различные роли контрибьюторов в проекте, а также обязанности и привилегии, которые к ним прилагаются.
 
 ## 1. Контрибьюторы
 
 Глоссарий открыт для всех. Любой может стать автором Глоссария, просто внеся свой вклад в проект. 
 При этом все участники должны следовать [Кодексу поведения CNCF](https://github.com/cncf/foundation/blob/main/code-of-conduct-languages/ru.md).
 
-Поучаствовать в проекте можно разными способами. Вы можете выступить в качестве:
+Поучаствовать в проекте можно разными способами. Можно выступить в качестве:
 
-- **Составителя контента**: улучшать существующие термины или предлагать новые, 
+- **Автора**: улучшать существующие термины или предлагать новые, 
 - **Локализатора**: помогать перевести глоссарий на другой язык,
 - **Помощника**: помогать другим на GitHub, в Slack или в других местах, где членам сообщества нужна поддержка,
 - **Амбассадора**: помогать распространять информацию, объяснять сообществу, как и почему нужно вносить свой вклад. 
@@ -40,88 +40,87 @@ menu:
 - Давать контрибьюторам обратную связь и направлять их при необходимости,
 - Вычитывать и редактировать материалы.
 
-Если апрувер больше не заинтересован в выполнении вышеперечисленных обязанностей или не может их выполнять, он должен сообщить об этом мейнтейнерам и сложить свои полномочия.
+Если апрувер более не заинтересован в выполнении вышеперечисленных обязанностей или не может их выполнять, он должен сообщить об этом мейнтейнерам и сложить свои полномочия.
 
 ### Апруверы английской версии Глоссария
 
-Различают три типа апруверов:
+Различают три вида апруверов:
 
 1) Апруверы с богатым техническим бэкграундом.
-2) Апруверы с хорошими письменными навыками.
+2) Апруверы, умеющие хорошо и понятно писать.
 3) Апруверы, владеющие обоими навыками.
 
 ========================================================
 
-**Technical Approvers**: Individuals with a strong technical background can be approvers without having solid English writing skills. 
-However, if they approve a PR on technical merit, they must ensure it is reviewed by an (editor) approver.
+**Технические апруверы**: Люди с обширными техническими знаниями могут быть апруверами, не обладая хорошими навыками письма на английском языке. 
+Однако, проверяя PR, они не должны ограничиваться его технической стороной — следует убедиться, что его проверит редактор.
 
-**Editors**: Editors proofread terms and ensure they are explained in simple language according to the Style Guide. 
-If a term is heavily edited, the editor must request a technical approver to review it again to ensure the meaning wasn't altered.
+**Редакторы**: Редакторы вычитывают термины и следят за тем, чтобы изложение велось простым языком в соответствии с Руководством по стилю. 
+Если в описание термина вносились серьезные изменения, редактор должен попросить технического специалиста просмотреть его еще раз, чтобы убедиться, что смысл сохранился.
 
 ### Апруверы локализаций
 
-The Glossary also has localization approvers. These are approvers for one of the localization teams (teams translating the glossary). 
-Localization approvers are only permitted to perform approver duties for their own team and have the ability to merge PRs to their dedicated development branch. 
-Any localization approver can also become an approver for the English Glossary if they meet the requirements. 
+У глоссария также есть апруверы локализаций, которые принадлежат к одной из команд локализации (команды, занимающейся переводом глоссария). 
+Апруверы локализации занимаются проверкой локализованных терминов и могут мержить PR'ы в соответствующую ветку локализации. 
+Любой апрувер локализации также может апрувером для английской версии глоссария, если он соответствует требованиям. 
 
 ### Стать апрувером
 
-Approver candidates should have a proven track record of submitting high-quality PRs and helping others get their PRs in a mergeable state. 
-If their timezone permits, they should also regularly attend the [Glossary Working Group meetings](https://www.cncf.io/calendar/).
+Кандидаты в апруверы должны иметь опыт подачи качественных PR'ов и помощи другим в приведении их PR'ов в состояние, пригодное для слияния. 
+Если позволяет часовой пояс, они также должны регулярно посещать встречи [Рабочей группы по глоссарию](https://www.cncf.io/calendar/).
 
-To become an approver, start by expressing interest to existing maintainers. 
-Existing maintainers will then ask you to demonstrate the qualifications above by contributing PRs, doing reviews, and doing other such tasks under their guidance. 
-After some time of working together, maintainers will decide whether to grant you approver status. 
-This decision will be based on your demonstrated level of proficiency and responsiveness.
+Чтобы стать апрувером, прежде всего расскажите о своем желании мейнтейнерам.
+Они попросят вас продемонстрировать вышеуказанные навыки, внося PR'ы, делая обзоры и выполняя другие подобные задачи под их руководством. 
+Через некоторое время мейнтейнеры решат, давать ли вам статус апрувера. 
+Решение будет основано на показанном вами уровне мастерства и ответственности.
 
-## 3. Maintainers
+## 3. Мейнтейнеры
 
-Maintainers are approvers who can also merge PRs. Anyone can become a Glossary maintainer (see [Becoming a maintainer](#becoming-a-maintainer)). 
-There are certain expectations for maintainers, including:
+Мейнтейнеры — это апруверы, которые также могут мержить PR'ы. Любой может стать мейнтейнером глоссария (см. [Стать мейнтейнером](#стать-мейнтейнером)).
+К мейнтейнерам предъявляются определенные требования, в том числе:
 
-- Be an active and responsive approver (see above),
-- Help maintain the repository, including site configuration, permission, issue-template, GitHub workflow, among others,
-- Monitor the Glossary Slack channels and help out whenever possible,
-- Regularly attend the [Glossary Working Group meetings](https://www.cncf.io/calendar/) (if timezone permits)
+- быть активным и отзывчивым апрувером (см. выше);
+- следить за репозиторием, конфигурацией сайта, разрешениями, шаблонами Issue, рабочим процессом на GitHub и т.д.;
+- следить за Slack-каналами Глоссария и помогать по мере возможности;
+- регулярно посещать собрания [Рабочей группы по глоссарию](https://www.cncf.io/calendar/) (если позволяет часовой пояс).
 
-If a maintainer is no longer interested in or cannot perform the duties listed above, they should move themselves to emeritus status.
+Если мейнтейнер более не заинтересован в выполнении перечисленных выше обязанностей или не может их выполнять, ему следует перевести себя в эмерит-статус (почетного участника).
 
-### Becoming a Maintainer
+### Стать мейнтейнером
 
-Maintainers should have a proven track record of being successful approvers and submitting high-quality PRs. 
-If their timezone permits, they should also regularly attend the Glossary Working Group meetings.
+Мейнтейнеры должны проявить себя как успешные апруверы, а также как авторы ряда качественных PR'ов. 
+Если позволяет часовой пояс, они должны регулярно посещать встречи рабочей группы по глоссарию.
 
-To become a maintainer, start by expressing interest to existing maintainers. 
-Existing maintainers will then ask you to demonstrate the qualifications above by contributing PRs, doing reviews, and doing other such tasks under their guidance. 
-After some time of working together, maintainers will decide whether to grant maintainer status. 
-This decision will be based on demonstrated level of proficiency and responsiveness.
+Прежде всего расскажите существующим мейнтейнерам о своем желании присоединиться к ним.
+Существующие мейнтейнеры попросят вас продемонстрировать вышеупомянутую квалификацию, внося PR, делая обзоры и выполняя другие подобные задачи под их руководством. 
+По итогам совместной работы они решат, готовы ли вы стать мейнтейнером. 
+Их решение будет основано на проявленном уровне мастерства и ответственности.
 
-## 4. Community Managers
+## 4. Менеджеры сообщества
 
-Community managers help foster a welcoming and engaging community. Any community member can become a community manager. They are expected to:
+Менеджеры сообщества создают гостеприимное и увлекательное сообщество. Любой участник сообщества может стать его менеджером. От них требуется:
 
-- Welcome new members and ensure they get the information they need,
-- Help answer questions from the community or identify someone who can help,
-- Moderate conversations on Slack.
+- приветствовать новых участников и обеспечивать их необходимой информацией;
+- помогать отвечать на вопросы сообщества или находить тех, кто может помочь;
+- модерировать дискуссии в Slack.
 
-### Become a Community Manager
+### Стать менеджером сообщества
 
-Anyone can become a Glossary community manager. 
-Community managers must have a solid understanding of the contribution and localization process and enjoy interacting and helping others. 
-To become a community manager, start by expressing interest to existing maintainers. 
-After an onboarding/trial period, maintainers will decide whether to grant community manager status based on performance. 
+Любой желающий может стать менеджером сообщества Глоссария. 
+Менеджеры сообщества должны хорошо разбираться в процессе локализации, а также любить общаться и помогать другим. 
+Прежде всего расскажите существующим мейнтейнерам о своем желании стать менеджером. 
+После онбординга/пробного периода мейнтейнеры примут решение о предоставлении статуса менеджера сообщества, основываясь на результатах работы.
 
-## Involuntary Removal
+## Принудительное удаление
 
-Involuntary removal of a contributor happens when responsibilities and requirements aren't met. 
-This may include repeated patterns of inactivity, extended periods of inactivity, and/or a violation of the code of conduct. 
-This process is important because it protects the community and its deliverables while also opening up opportunities for new contributors to step in.
+Принудительное удаление участника происходит при невыполнении обязанностей и требований,  
+а также в случае длительных периодов бездействия и/или нарушении кодекса поведения. 
+Принудительное удаление важно, поскольку защищает сообщество и его результаты, а также открывает возможности для новых контрибьюторов.
 
-## Stepping Down/Emeritus Process
+## Снятие с себя полномочий/Почетное участие
 
-If and when contributors' commitment levels change, contributors can consider stepping down (moving down the contributor ladder) vs. 
-moving to emeritus status (completely stepping away from the project).
+При снижении степени вовлеченности в проект контрибьюторы могут рассмотреть возможность снятия с себя части полномочий (с переходом на менее ответственную роль) или перехода в статус эмерита (полный отказ от участия в проекте).
 
-## Stepping Back Into a Role
+## Возвращение к роли
 
-If and when someone is available to step back into a previous contributor role, project leadership can arrange and consider this.
+Если у участника появляется возможность вернуться к прежней роли, лидеры проекта могут организовать и рассмотреть такую возможность.
